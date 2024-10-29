@@ -1,4 +1,4 @@
-# leetcode_sql
+# leetcode_sql Select
 
 ## 1757. Recyclable and Low Fat Products
 

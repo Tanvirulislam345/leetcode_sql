@@ -261,5 +261,5 @@ Tweet 2 has length = 33. It is an invalid tweet.
 ## Solution
 
 ```bash
-SELECT DISTINCT author_id AS id FROM Views WHERE  author_id = viewer_id   ORDER BY id ASC;
+SELECT tweet_id FROM Tweets WHERE CHARACTER_LENGTH(content) > 15;
 ```
